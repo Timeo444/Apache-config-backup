@@ -1,5 +1,7 @@
 #!/bin/bash
 
+*/10 * * * *
+
 # Pull latest config changes from GitHub
 cd ~/Git-Managed-Configuration/apache_config_backup
 git pull origin main
